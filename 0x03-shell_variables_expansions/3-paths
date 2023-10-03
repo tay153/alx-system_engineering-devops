@@ -1,2 +1,2 @@
 #!/bin/bash
-find type -d | wc
+echo $(('echo $PATH | grep -0 ":/" | wc-l'+ 1)
